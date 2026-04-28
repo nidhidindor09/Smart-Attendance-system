@@ -120,7 +120,6 @@ void saveStudents(const vector<Student>& list) {
         s.save(out);
 }
 
-// ---------- MAIN ----------
 int main() {
     vector<Student> students = loadStudents();
     int choice;
